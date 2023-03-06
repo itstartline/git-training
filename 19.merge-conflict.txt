@@ -1,0 +1,15 @@
+git branch merge-conflict
+vi fifth.txt
+git add fifth.txt
+git commit -m 'Add merge-conflict file'
+git checkout merge-conflict
+git commit -m 'Add a different merge-conflict file'
+git checkout master
+git merge merge-conflict
+git merge --abort
+git merge merge-conflict
+git status
+vi fifth.txt
+git add fifth.txt
+git commit
+git log --graph --oneline --all --decorate

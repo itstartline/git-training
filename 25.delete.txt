@@ -1,0 +1,8 @@
+// --delete
+git branch -d mybranch
+// --delete --force
+git branch -D mybranch
+git push --delete origin remotes
+
+// --dry-run = see what will be deleted, without doing it
+git remote prune origin --dry-run

@@ -1,0 +1,18 @@
+git checkout -b remotes
+vi fifth
+git add .
+git commit -m 'Add file with examples of remote'
+git checkout master
+git fetch
+git merge remotes
+
+
+// set a token here: https://github.com/settings/tokens
+// create an empty repo
+
+git remote add origin https://github.com/atsamour/git-training-tmp.git
+git push -u origin master:main
+
+git remote -v
+git remote rename origin destination
+

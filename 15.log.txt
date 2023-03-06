@@ -1,0 +1,17 @@
+git log --oneline
+git log --oneline -3
+git log --oneline --since="2023-01"
+git log --oneline --before="2023-08"
+git log --oneline --since="last week"
+git log --oneline --author="Arka.*s"
+git log --oneline --grep="Add"
+git log --oneline --grep="s.*l"
+git log --oneline 8d358b3..17b73a6
+git log
+git log --oneline druhyy.txt
+git log --oneline 47cdf6a.. druhyy.txt
+git log --oneline b13c349..d1f38f7 druhyy.txt
+//view log with changes
+git log -p
+git log -p druhyy.txt
+git log -p --oneline druhyy.txt

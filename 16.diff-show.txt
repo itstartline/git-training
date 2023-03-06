@@ -1,0 +1,8 @@
+git show 17b73
+git diff 17b73a62e11c98bfaa94bf20371c378d3151baec
+git diff 87469a5..f9a709f 05.first-commit.txt
+git diff d1f38f7..HEAD
+git diff --stat --summary d1f38f7..HEAD
+// -w = ignore spaces and white lines
+git diff -w d1f38f7..HEAD
+git diff -b d1f38f7..HEAD

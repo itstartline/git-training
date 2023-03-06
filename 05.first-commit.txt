@@ -1,0 +1,23 @@
+cat 1>first.txt
+This is my first file.
+CTRL-D
+
+git status
+git add .
+git status
+
+git commit -m "Add the first file"
+git status
+
+
+
+
+
+The Working Tree
+The Working Tree is the area where you are currently working. It is where your files live. This area is also known as the “untracked” area of git. 
+
+The Staging Area (Index):
+The Staging Area is when git starts tracking and saving changes that occur in files. These saved changes reflect in the .git directory.
+
+The Local Repository:
+The Local Repository is everything in your .git directory. Mainly what you will see in your Local Repository are all of your checkpoints or commits. It is the area that saves everything (so don’t delete it).

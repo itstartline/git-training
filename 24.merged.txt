@@ -1,0 +1,6 @@
+git branch
+git branch -a
+git branch --merged
+git branch --no-merged
+git branch -r --merged
+git branch --merged origin/master

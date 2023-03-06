@@ -1,0 +1,29 @@
+mv first.txt pershyy.txt
+
+git status
+git rm first.txt
+git add pershyy.txt
+git status
+
+//use this to keep better history
+git mv second.txt druhyy.txt
+git status
+
+mkdir First
+git mv third.txt First
+git status
+
+git commit -m "Move files and create the first folder"
+git status
+
+rm pershyy.txt
+ls -l
+git status
+git restore pershyy.txt
+ls -l
+
+rm pershyy.txt
+ls -l
+//old way, now restore prefered for files
+git checkout pershyy.txt
+ls -l

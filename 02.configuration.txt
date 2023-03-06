@@ -1,0 +1,15 @@
+// online playground: https://console.cloud.google.com/cloudshell
+// create an accounf in GitHub
+
+git config --global user.name "Arkadios Tsamourliadis"
+git config --global user.email "mojmail@gmail.com"
+git config --global core.editor "vim"
+git config --global color.ui true
+
+git config --list
+git config user.name
+git config user.email
+
+cat .gitconfig
+
+git reflog

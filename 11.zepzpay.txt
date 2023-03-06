@@ -1,0 +1,13 @@
+cd
+wget -rx https://www.zepzpay.com/
+cd www.zepzpay.com
+
+sudo apt-get -y install links
+links file://index.html
+
+git init
+git add .
+git status
+git commit -m "Initial commit"
+git log
+

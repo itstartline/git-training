@@ -1,0 +1,31 @@
+// /g = replaces all matches and not just the first, /I = case insentive
+sed -i s/zepz/instant/gI assets/styles/css/*css *htm*
+links index.htm
+
+git status
+//git init after files creation marked all of the m as tracked
+git commit -am "Change zepz for for instant"
+git log
+git commit --amend -m "Substitute California by Kalifornia"
+git log
+
+git revert 381b
+links index.htm
+git log
+git revert d960
+links index.htm
+git revert cf88
+git revert --abort
+
+touch junk.1 junk.2 junk.3
+git status
+git add junk.1
+git status
+git clean -n
+git clean -f
+git status
+//move from working directory to staging area
+git reset HEAD junk.1
+git status
+git clean -f
+git status

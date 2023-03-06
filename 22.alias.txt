@@ -1,0 +1,2 @@
+git config --global alias.logg "log --all --oneline --decorate --graph --abbrev-commit"
+git logg

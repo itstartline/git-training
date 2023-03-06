@@ -1,0 +1,19 @@
+touch tmpchanges.txt
+git add tmpchanges.txt
+git commit -m 'Add file with stash example'
+git checkout stash
+vi tmpchanges.txt
+git stash save 'Modified file with example of stash'
+git stash list
+git checkout master
+git stash show
+git stash show -p
+
+git stash apply
+git add tmpchanges.txt
+git commit -m 'Modify file with example of stash'
+git stash list
+git stash drop
+git stash clear
+
+git checkout stash

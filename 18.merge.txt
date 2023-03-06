@@ -1,0 +1,11 @@
+git log --graph --oneline --all --decorate
+git checkout master
+git diff master branches
+git merge branches
+git diff master branches
+git log --graph --oneline --all --decorate
+
+//see branches merged to current
+git branch --merged
+git branch --no-merged
+

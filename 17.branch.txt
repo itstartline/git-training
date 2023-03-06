@@ -1,0 +1,26 @@
+git branch
+git branch feature-contact_form
+git branch
+git switch feature-contact_form
+//old way of changing branch
+git checkout feature-contact_form
+
+git checkout master
+git branch -d feature-contact_form
+git branch branch_examples
+git checkout branch_examples
+
+git branch -d feature-contact_form
+git branch branch_examples
+git checkout branch_examples
+
+echo "new file contenct" > example_file
+git add .
+git commit -m "Add new example file"
+git diff master branch_examples
+
+git switch master
+
+//rename branch
+git branch -m feature-contact_form branches
+git branch
